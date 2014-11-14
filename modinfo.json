@@ -1,0 +1,22 @@
+{
+  "context": "client",
+  "identifier": "com.uberent.pa.BuildingEffectsEnhancement",
+  "display_name": "Building Effects Enhancement",
+  "description": "Overhaul of Building Effects",
+  "author": "Alpha2546, Fr33Lancer",
+  "version": "1.0",
+  "build": "74525",
+  "date": "2014/14/11",
+  "signature": "not yet implemented",
+  "forum": "TBD",
+  "icon": "TBD",
+  "category": [
+	  "in-game",
+	  "shader",
+	  "colours",
+	  "particles",
+	  "effects",
+	  "buildings"
+    ],
+  "priority": 100
+}
