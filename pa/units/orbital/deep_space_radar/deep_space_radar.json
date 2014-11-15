@@ -82,7 +82,7 @@
 			"type" : "idle",
 			"bone" : "bone_door01",
 			"filename" : "/pa/units/orbital/deep_space_radar/light_strobe1_2.pfx",
-			"offset" : [4.3, 0, 1.7]
+			"offset" : [4.3, 0, 2.0]
 		},{
 			"type" : "idle",
 			"bone" : "bone_door01",
@@ -92,7 +92,7 @@
 			"type" : "idle",
 			"bone" : "bone_door02",
 			"filename" : "/pa/units/orbital/deep_space_radar/light_strobe1_2.pfx",
-			"offset" : [4.3, 0, 1.7]
+			"offset" : [4.3, 0, 2.0]
 		},{
 			"type" : "idle",
 			"bone" : "bone_door02",
@@ -102,7 +102,7 @@
 			"type" : "idle",
 			"bone" : "bone_door03",
 			"filename" : "/pa/units/orbital/deep_space_radar/light_strobe1_2.pfx",
-			"offset" : [4.3, 0, 1.7]
+			"offset" : [4.3, 0, 2.0]
 		},{
 			"type" : "idle",
 			"bone" : "bone_door03",
@@ -112,7 +112,7 @@
 			"type" : "idle",
 			"bone" : "bone_door04",
 			"filename" : "/pa/units/orbital/deep_space_radar/light_strobe1_2.pfx",
-			"offset" : [4.3, 0, 1.7]
+			"offset" : [4.3, 0, 2.0]
 		},{
 			"type" : "idle",
 			"bone" : "bone_door04",

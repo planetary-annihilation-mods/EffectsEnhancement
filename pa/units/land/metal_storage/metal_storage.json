@@ -59,12 +59,12 @@
 		},{
 			"type" : "idle",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_3_1.pfx",
+			"filename" : "/pa/effects/specs/lightblink_2_2_1.pfx",
 			"offset" : [-2.5, 8.157, 12.7]
 		},{
 			"type" : "idle",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_3_3.pfx",
+			"filename" : "/pa/effects/specs/lightblink_2_2_2.pfx",
 			"offset" : [2.5, 8.157, 12.7]
 		}		
 	],
