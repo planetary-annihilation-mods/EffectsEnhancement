@@ -50,13 +50,24 @@
 			"cue": "/SE/Selection/structure/metal"
 		}
 	},
-		"fx_offsets": [{
-		"type": "idle",
-		"filename": "/pa/units/land/metal_storage/metal_storage.pfx",
-		"offset": [0,
+			"fx_offsets": [{
+			"type": "idle",
+			"filename": "/pa/units/land/metal_storage/metal_storage.pfx",
+			"offset": [0,
 		0,
 		5]
-	}],
+		},{
+			"type" : "idle",
+			"bone" : "bone_root",
+			"filename" : "/pa/effects/specs/light_strobe2_3_1.pfx",
+			"offset" : [-2.5, 8.157, 12.7]
+		},{
+			"type" : "idle",
+			"bone" : "bone_root",
+			"filename" : "/pa/effects/specs/light_strobe2_3_3.pfx",
+			"offset" : [2.5, 8.157, 12.7]
+		}		
+	],
 	"headlights": [{
 		"gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
 		"offset": [0.0,
