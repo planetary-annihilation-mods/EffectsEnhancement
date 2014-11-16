@@ -94,14 +94,16 @@
 			"offset" : [0, 0, 0],
 			"orientation" : [0, 0, 0]
 		},{
+			"label" : "Big Antenna",
 			"type" : "idle",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_4_2.pfx",
+			"filename" : "/pa/effects/specs/light_2_4_1_4.pfx",
 			"offset" : [0, 5.2, 23.5]
 		},{
+			"label" : "Little Antenna",
 			"type" : "idle",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_4_3.pfx",
+			"filename" : "/pa/effects/specs/light_2_4_3_2.pfx",
 			"offset" : [0, 4.3, 21.85]
 		}
 	],
