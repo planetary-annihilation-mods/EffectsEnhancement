@@ -64,21 +64,21 @@
 			"bone" : "bone_hose07"
 		},{
 			"label" : "Energy Plant Light 1",
-			"type" : "enabled",
+			"type" : "idle",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_3_1.pfx",
+			"filename" : "/pa/effects/specs/light_2_4_2_2.pfx",
 			"offset" : [0, -7.9, 26.8]
 		},{
 			"label" : "Energy Plant Light 2",
-			"type" : "enabled",
+			"type" : "idle",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_3_2.pfx",
+			"filename" : "/pa/effects/specs/light_2_4_3_2.pfx",
 			"offset" : [-7.9, 0, 26.8]
 		},{
 			"label" : "Energy Plant Light 3",
-			"type" : "enabled",
+			"type" : "idle",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_3_3.pfx",
+			"filename" : "/pa/effects/specs/light_2_4_1_2.pfx",
 			"offset" : [7.9, 0, 26.8]
 		},{
 			"label" : "Border Light S1-E1",
