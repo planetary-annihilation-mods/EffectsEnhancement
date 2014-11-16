@@ -104,55 +104,55 @@
 			"label" : "Corner Antenna 1",
 			"type" : "idle",
 			"bone" : "bone_frontArms",
-			"filename" : "/pa/effects/specs/light_1_4_3.pfx",
+			"filename" : "/pa/effects/specs/light_1_4_3_4.pfx",
 			"offset" : [19.2, -38, 0]
 		},{
 			"label" : "Corner Antenna 2",
 			"type" : "idle",
 			"bone" : "bone_backArms",
-			"filename" : "/pa/effects/specs/light_1_4_1.pfx",
+			"filename" : "/pa/effects/specs/light_1_4_1_4.pfx",
 			"offset" : [19.2, -38, 0]
 		},{
 			"label" : "Corner Antenna 3",
 			"type" : "idle",
 			"bone" : "bone_backArms",
-			"filename" : "/pa/effects/specs/light_1_4_2.pfx",
+			"filename" : "/pa/effects/specs/light_1_4_2_4.pfx",
 			"offset" : [-19.2, -38, 0]
 		},{
 			"label" : "Corner Antenna 4",
 			"type" : "idle",
 			"bone" : "bone_frontArms",
-			"filename" : "/pa/effects/specs/light_1_4_4.pfx",
+			"filename" : "/pa/effects/specs/light_1_4_4_4.pfx",
 			"offset" : [-19.2, -38, 0]
 		},{
 			"label" : "Horizontal Antenna 1",
 			"type" : "build",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_2_2.pfx",
+			"filename" : "/pa/effects/specs/light_2_4_1_2.pfx",
 			"offset" : [23.7, 0, 17.25]
 		},{
 			"label" : "Horizontal Antenna 2",
 			"type" : "build",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_2_1.pfx",
+			"filename" : "/pa/effects/specs/light_2_4_2_2.pfx",
 			"offset" : [17, 0, 25]
 		},{
 			"label" : "Horizontal Antenna 3",
 			"type" : "build",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_2_1.pfx",
+			"filename" : "/pa/effects/specs/light_2_4_3_2.pfx",
 			"offset" : [-17, 0, 25]
 		},{
 			"label" : "Horizontal Antenna 4",
 			"type" : "build",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_2_2.pfx",
+			"filename" : "/pa/effects/specs/light_2_4_4_2.pfx",
 			"offset" : [-23.7, 0, 17.25]
 		},{
 			"label" : "Bottom Tri Antenna Light",
 			"type" : "idle",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_2_1.pfx",
+			"filename" : "/pa/effects/specs/light_2_4_1_2.pfx",
 			"offset" : [0, 0, -39]
 		}
 	],
