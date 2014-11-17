@@ -56,7 +56,27 @@
 		"offset": [0,
 		0,
 		5]
-	}],
+	},{
+			"type" : "idle",
+			"bone" : "bone_antenna01",
+			"filename" : "/pa/effects/specs/light_2_3_1.pfx",
+			"offset" : [5.15, 5.15, 13]
+		},{
+			"type" : "idle",
+			"bone" : "bone_antenna01",
+			"filename" : "/pa/effects/specs/light_2_3_1.pfx",
+			"offset" : [-5.15, -5.15, 13]
+		},{
+			"type" : "idle",
+			"bone" : "bone_antenna01",
+			"filename" : "/pa/effects/specs/light_2_3_3.pfx",
+			"offset" : [-5.15, 5.15, 13]
+		},{
+			"type" : "idle",
+			"bone" : "bone_antenna01",
+			"filename" : "/pa/effects/specs/light_2_3_3.pfx",
+			"offset" : [5.15, -5.15, 13]
+		}],
 	"headlights": [{
 		"gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
 		"offset": [6.2,
