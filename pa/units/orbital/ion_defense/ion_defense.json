@@ -81,12 +81,12 @@
 	"fx_offsets" : [{
 			"type" : "idle",
 			"bone" : "bone_pitch",
-			"filename" : "/pa/effects/specs/light_2_4_1_2.pfx",
+			"filename" : "/pa/units/orbital/ion_defense/light_2_2_1.pfx",
 			"offset" : [2.5, -4.8, 0]
 		},{
 			"type" : "idle",
 			"bone" : "bone_pitch",
-			"filename" : "/pa/effects/specs/light_2_4_3_2.pfx",
+			"filename" : "/pa/units/orbital/ion_defense/light_2_2_2.pfx",
 			"offset" : [-2.5, -4.8, 0]
 		}
 	],	

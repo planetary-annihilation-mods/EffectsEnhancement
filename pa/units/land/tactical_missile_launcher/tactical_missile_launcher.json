@@ -70,12 +70,12 @@
 	},
 		"fx_offsets": [{
 		"type": "idle",
-			"filename" : "/pa/effects/specs/light_2_3_3.pfx",
+			"filename" : "/pa/units/land/tactical_missile_launcher/light_2_3_3.pfx",
 			"offset" : [3.9, 0.6, 8.8]
 	},{
 			"type" : "idle",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_3_1.pfx",
+			"filename" : "/pa/units/land/tactical_missile_launcher/light_2_3_1.pfx",
 			"offset" : [-3.9, -0.6, 8.8]
 		}],
 	"TEMP_texelinfo": 15.8261,
