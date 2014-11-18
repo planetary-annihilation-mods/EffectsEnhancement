@@ -125,35 +125,15 @@
 			"filename" : "/pa/effects/specs/light_1_4_4_4.pfx",
 			"offset" : [-19.2, -38, 0]
 		},{
-			"label" : "Horizontal Antenna 1",
+			"label" : "Building Antennas",
 			"type" : "build",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_4_1_2.pfx",
-			"offset" : [23.7, 0, 17.25]
-		},{
-			"label" : "Horizontal Antenna 2",
-			"type" : "build",
-			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_4_2_2.pfx",
-			"offset" : [17, 0, 25]
-		},{
-			"label" : "Horizontal Antenna 3",
-			"type" : "build",
-			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_4_3_2.pfx",
-			"offset" : [-17, 0, 25]
-		},{
-			"label" : "Horizontal Antenna 4",
-			"type" : "build",
-			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_4_4_2.pfx",
-			"offset" : [-23.7, 0, 17.25]
+			"filename" : "/pa/units/orbital/orbital_factory/orbital_factory_build_light.pfx"
 		},{
 			"label" : "Bottom Tri Antenna Light",
 			"type" : "idle",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_4_1_2.pfx",
-			"offset" : [0, 0, -39]
+			"filename" : "/pa/units/orbital/orbital_factory/orbital_factory_bottom_light.pfx"
 		}
 	],
 	"mesh_bounds" : [45, 40, 24],
