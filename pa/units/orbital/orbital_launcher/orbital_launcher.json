@@ -93,23 +93,11 @@
 			"filename" : "/pa/effects/specs/light_2_4_1_2.pfx",
 			"offset" : [-5, 10.85, 64.33]
 		},{
-			"label" : "Ramp 1",
-			"type" : "build",
-			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_1_4_2_2.pfx",
-			"offset" : [23.5, -23.5, 5]
-		},{
-			"label" : "Ramp 2",
-			"type" : "build",
-			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_1_4_3_2.pfx",
-			"offset" : [23.5, -12.33, 5]
-		},{
 			"label" : "Ramp 3",
 			"type" : "build",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_1_4_4_2.pfx",
-			"offset" : [23.5, -1.15, 5]
+			"filename" : "/pa/units/orbital/orbital_launcher/light_build.pfx",
+			"offset" : [23.5, -1.15, 4.8]
 		}
 	],
 	"headlights" : [{
