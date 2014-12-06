@@ -92,25 +92,25 @@
 			"orientation" : [0, 0, 0]
 		},{
 			"label" : "Big Antenna Right",
-			"type" : "idle",
+			"type" : "build",
 			"filename" : "/pa/effects/specs/light_2_4_2_2.pfx",
 			"bone" : "bone_root",
 			"offset" : [17.1, -11, 11.8]
 		},{
 			"label" : "Little Antenna Right",
-			"type" : "idle",
+			"type" : "build",
 			"filename" : "/pa/effects/specs/light_2_4_1_2.pfx",
 			"bone" : "bone_root",
 			"offset" : [18.9, -11, 9.9]
 		},{
 			"label" : "Big Antenna Left",
-			"type" : "idle",
+			"type" : "build",
 			"filename" : "/pa/effects/specs/light_2_4_2_2.pfx",
 			"bone" : "bone_root",
 			"offset" : [-17.1, -11, 11.8]
 		},{
 			"label" : "Little Antenna Left",
-			"type" : "idle",
+			"type" : "build",
 			"filename" : "/pa/effects/specs/light_2_4_1_2.pfx",
 			"bone" : "bone_root",
 			"offset" : [-18.9, -11, 9.9]
