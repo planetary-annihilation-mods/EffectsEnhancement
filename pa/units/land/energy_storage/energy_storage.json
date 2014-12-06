@@ -59,22 +59,22 @@
 	},{
 			"type" : "idle",
 			"bone" : "bone_antenna01",
-			"filename" : "/pa/effects/specs/light_2_3_1.pfx",
+			"filename" : "/pa/effects/specs/stable_light_2.pfx",
 			"offset" : [5.15, 5.15, 13]
 		},{
 			"type" : "idle",
 			"bone" : "bone_antenna01",
-			"filename" : "/pa/effects/specs/light_2_3_1.pfx",
+			"filename" : "/pa/effects/specs/stable_light_2.pfx",
 			"offset" : [-5.15, -5.15, 13]
 		},{
 			"type" : "idle",
 			"bone" : "bone_antenna01",
-			"filename" : "/pa/effects/specs/light_2_3_3.pfx",
+			"filename" : "/pa/effects/specs/stable_light_2.pfx",
 			"offset" : [-5.15, 5.15, 13]
 		},{
 			"type" : "idle",
 			"bone" : "bone_antenna01",
-			"filename" : "/pa/effects/specs/light_2_3_3.pfx",
+			"filename" : "/pa/effects/specs/stable_light_2.pfx",
 			"offset" : [5.15, -5.15, 13]
 		}],
 	"headlights": [{
