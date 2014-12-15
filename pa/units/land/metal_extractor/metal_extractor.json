@@ -71,7 +71,7 @@
 	},{
 			"type" : "idle",
 			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/lightblink_2_2_2.pfx",
+			"filename" : "/pa/units/land/metal_extractor/lightblink_2_2_2.pfx",
 			"offset" : [0, 0, 9.7]
 		}],
 	"lamps": [{
