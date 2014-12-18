@@ -78,17 +78,17 @@
 		}
 	},
 	"fx_offsets" : [{
-			"type" : "idle",
+			"type" : "energy",
 			"bone" : "bone_rotator",
 			"filename" : "/pa/effects/specs/light_2_4_3_4.pfx",
 			"offset" : [0, -3, 4.45]
 		},{
-			"type" : "idle",
+			"type" : "energy",
 			"bone" : "bone_wheel01",
 			"filename" : "/pa/effects/specs/light_2_4_3_2.pfx",
 			"offset" : [0, -5.25, 0]
 		},{
-			"type" : "idle",
+			"type" : "energy",
 			"bone" : "bone_wheel02",
 			"filename" : "/pa/effects/specs/light_2_4_1_4.pfx",
 			"offset" : [0, -5.25, 0]
