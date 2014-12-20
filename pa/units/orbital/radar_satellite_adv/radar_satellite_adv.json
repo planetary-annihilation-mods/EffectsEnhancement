@@ -91,72 +91,91 @@
 			"effect_scale": 1.5
 		}
 	},
+	"fx_offsets": [{
+		"type": "energy",
+		"filename": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_dish01_on.pfx",
+		"bone": "bone_radarPivot01"
+	},
+	{
+		"type": "energy",
+		"filename": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_dish02_on.pfx",
+		"bone": "bone_radarPivot02"
+	},
+	{
+		"type": "energy",
+		"filename": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_antenna_on.pfx",
+		"bone": "bone_antenna01"
+	},
+	{
+		"type": "energy",
+		"filename": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_antenna_on.pfx",
+		"bone": "bone_antenna02"
+	}, {			
+		"type": "energy",
+			"bone" : "bone_antenna01",
+			"filename" : "/pa/effects/specs/lightblink_1_8_1.pfx",
+			"offset" : [12.5, 0, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_antenna01",
+			"filename" : "/pa/effects/specs/lightblink_1_8_8.pfx",
+			"offset" : [8.7, 0.75, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_antenna01",
+			"filename" : "/pa/units/orbital/radar_satellite_adv/lightblink_1_8_4.pfx",
+			"offset" : [6.3, -0.75, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_antenna02",
+			"filename" : "/pa/units/orbital/radar_satellite_adv/lightblink_1_8_1.pfx",
+			"offset" : [12.5, 0, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_antenna02",
+			"filename" : "/pa/units/orbital/radar_satellite_adv/lightblink_1_8_8.pfx",
+			"offset" : [8.7, 0.75, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_antenna02",
+			"filename" : "/pa/units/orbital/radar_satellite_adv/lightblink_1_8_4.pfx",
+			"offset" : [6.3, -0.75, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_bottomRotator",
+			"filename" : "/pa/effects/specs/light_2_2_1.pfx",
+			"offset" : [5.2, 5.2, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_bottomRotator",
+			"filename" : "/pa/effects/specs/light_2_2_1.pfx",
+			"offset" : [-5.2, -5.2, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_bottomRotator",
+			"filename" : "/pa/effects/specs/light_2_2_2.pfx",
+			"offset" : [5.2, -5.2, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_bottomRotator",
+			"filename" : "/pa/effects/specs/light_2_2_2.pfx",
+			"offset" : [-5.2, 5.2, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_bottomRotator",
+			"filename" : "/pa/units/orbital/radar_satellite_adv/lightblink_1_8_6.pfx",
+			"offset" : [0, 0.5, 7.3]
+		},{
+		"type": "energy",
+			"bone" : "bone_bottomRotator",
+			"filename" : "/pa/units/orbital/radar_satellite_adv/lightblink_1_8_3.pfx",
+			"offset" : [0, -0.5, 9.6]
+		}],
 	"audio": {
 		"selection_response": {
 			"cue": "/SE/Selection/orbital/radar"
 		}
 	},
-	"fx_offsets": [{
-			"type" : "idle",
-			"bone" : "bone_antenna01",
-			"filename" : "/pa/effects/specs/lightblink_1_8_1.pfx",
-			"offset" : [12.5, 0, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_antenna01",
-			"filename" : "/pa/effects/specs/lightblink_1_8_8.pfx",
-			"offset" : [8.7, 0.75, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_antenna01",
-			"filename" : "/pa/units/orbital/radar_satellite_adv/lightblink_1_8_4.pfx",
-			"offset" : [6.3, -0.75, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_antenna02",
-			"filename" : "/pa/units/orbital/radar_satellite_adv/lightblink_1_8_1.pfx",
-			"offset" : [12.5, 0, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_antenna02",
-			"filename" : "/pa/units/orbital/radar_satellite_adv/lightblink_1_8_8.pfx",
-			"offset" : [8.7, 0.75, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_antenna02",
-			"filename" : "/pa/units/orbital/radar_satellite_adv/lightblink_1_8_4.pfx",
-			"offset" : [6.3, -0.75, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_bottomRotator",
-			"filename" : "/pa/effects/specs/light_2_2_1.pfx",
-			"offset" : [5.2, 5.2, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_bottomRotator",
-			"filename" : "/pa/effects/specs/light_2_2_1.pfx",
-			"offset" : [-5.2, -5.2, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_bottomRotator",
-			"filename" : "/pa/effects/specs/light_2_2_2.pfx",
-			"offset" : [5.2, -5.2, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_bottomRotator",
-			"filename" : "/pa/effects/specs/light_2_2_2.pfx",
-			"offset" : [-5.2, 5.2, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_bottomRotator",
-			"filename" : "/pa/units/orbital/radar_satellite_adv/lightblink_1_8_6.pfx",
-			"offset" : [0, 0.5, 7.3]
-		},{
-			"type" : "idle",
-			"bone" : "bone_bottomRotator",
-			"filename" : "/pa/units/orbital/radar_satellite_adv/lightblink_1_8_3.pfx",
-			"offset" : [0, -0.5, 9.6]
-		}],
 	"mesh_bounds": [25,
 	15,
 	15],

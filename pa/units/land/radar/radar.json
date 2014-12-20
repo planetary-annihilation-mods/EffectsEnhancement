@@ -109,13 +109,6 @@
 			"cue": "/SE/Selection/structure/radar"
 		}
 	},
-	"fx_offsets" : [{
-			"type" : "energy",
-			"bone" : "bone_rotator",
-			"filename" : "/pa/effects/specs/light_2_2_1.pfx",
-			"offset" : [0, -3, 4.45]
-		}
-	],
 	"mesh_bounds": [8.58559,
 	7.71255,
 	10.5],

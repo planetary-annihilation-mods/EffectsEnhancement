@@ -89,37 +89,57 @@
 			"audio_cue": "/SE/Death/radar"
 		}
 	},
+	"fx_offsets": [{
+		"type": "energy",
+		"filename": "/pa/units/orbital/radar_satellite/radar_satellite_on.pfx",
+		"bone": "bone_radar",
+		"offset": [0,
+		-1.0,
+		0.0],
+		"orientation": [0,
+		-90,
+		0]
+	},
+	{
+		"type": "energy",
+		"filename": "/pa/units/orbital/radar_satellite/radar_satellite_antenna_on.pfx",
+		"bone": "bone_antenna01"
+	},
+	{
+		"type": "energy",
+		"filename": "/pa/units/orbital/radar_satellite/radar_satellite_antenna_on.pfx",
+		"bone": "bone_antenna02"
+	}, {
+		"type": "energy",
+			"bone" : "bone_radar",
+			"filename" : "/pa/effects/specs/light_2_4_1_2.pfx",
+			"offset" : [0, -5.3, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_antenna01",
+			"filename" : "/pa/effects/specs/lightblink_1_4_1.pfx",
+			"offset" : [7.6, 0.7, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_antenna01",
+			"filename" : "/pa/effects/specs/lightblink_1_4_4.pfx",
+			"offset" : [4.5, -0.7, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_antenna02",
+			"filename" : "/pa/effects/specs/lightblink_1_4_3.pfx",
+			"offset" : [7.6, 0.7, 0]
+		},{
+		"type": "energy",
+			"bone" : "bone_antenna02",
+			"filename" : "/pa/effects/specs/lightblink_1_4_2.pfx",
+			"offset" : [4.5, -0.7, 0]
+		}],
 	"audio": {
 		"selection_response": {
 			"cue": "/SE/Selection/orbital/radar"
 		}
 	},
-	"fx_offsets": [{
-		"type" : "idle",
-			"bone" : "bone_radar",
-			"filename" : "/pa/effects/specs/light_2_4_1_2.pfx",
-			"offset" : [0, -5.3, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_antenna01",
-			"filename" : "/pa/effects/specs/lightblink_1_4_1.pfx",
-			"offset" : [7.6, 0.7, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_antenna01",
-			"filename" : "/pa/effects/specs/lightblink_1_4_4.pfx",
-			"offset" : [4.5, -0.7, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_antenna02",
-			"filename" : "/pa/effects/specs/lightblink_1_4_3.pfx",
-			"offset" : [7.6, 0.7, 0]
-		},{
-			"type" : "idle",
-			"bone" : "bone_antenna02",
-			"filename" : "/pa/effects/specs/lightblink_1_4_2.pfx",
-			"offset" : [4.5, -0.7, 0]
-		}],
 	"mesh_bounds": [20,
 	20,
 	15],

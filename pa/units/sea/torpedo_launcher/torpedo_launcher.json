@@ -41,14 +41,6 @@
 		"aim_bone": "bone_turret",
 		"muzzle_bone": "socket_rightMuzzle"
 	}],
-	"fx_offsets" : [{
-			"label" : "Antenna",
-			"type" : "idle",
-			"bone" : "bone_root",
-			"filename" : "/pa/effects/specs/light_2_4_1.pfx",
-			"offset" : [0, 2.5, 7]
-		}
-	],
 	"recon": {
 		"observer": {
 			"items": [{
@@ -65,6 +57,14 @@
 			}]
 		}
 	},
+		"fx_offsets" : [{
+			"label" : "Antenna",
+			"type" : "idle",
+			"bone" : "bone_root",
+			"filename" : "/pa/effects/specs/light_2_4_1.pfx",
+			"offset" : [0, 2.5, 7]
+		}
+	],
 	"mesh_bounds": [12,
 	6,
 	5],
