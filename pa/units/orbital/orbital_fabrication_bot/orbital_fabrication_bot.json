@@ -109,17 +109,6 @@
 		"orientation": [0,
 		0,
 		-90]
-	}],
-	"fx_offsets": [{
-		"type": "build",
-		"filename": "/pa/effects/specs/fab_spray.pfx",
-		"bone": "bone_nozzle",
-		"offset": [1.755,
-		0,
-		0],
-		"orientation": [0,
-		0,
-		-90]
 	}, {
 			"type" : "idle",
 			"bone" : "bone_leftSolarPanel",
