@@ -28,6 +28,12 @@
 				"channel": "sight",
 				"shape": "capsule",
 				"radius": 100
+			},
+			{
+				"layer": "underwater",
+				"channel": "sight",
+				"shape": "capsule",
+				"radius": 100
 			}]
 		}
 	},
@@ -64,13 +70,6 @@
 			"cue": "/SE/Selection/structure/metal"
 		}
 	},
-		"fx_offsets": [{
-		"type": "idle",
-		"filename": "/pa/units/land/metal_extractor_adv/metal_extractor_adv.pfx",
-		"offset": [0,
-		0,
-		5]
-	}],
 	"lamps": [{
 		"offset": [0.0,
 		-2.273,
@@ -80,6 +79,13 @@
 		0.0,
 		0.0],
 		"intensity": 1.0
+	}],
+		"fx_offsets": [{
+		"type": "idle",
+		"filename": "/pa/units/land/metal_extractor_adv/metal_extractor_adv.pfx",
+		"offset": [0,
+		0,
+		5]
 	}],
 	"mesh_bounds": [15.5,
 	13.3685,

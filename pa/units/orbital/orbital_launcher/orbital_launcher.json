@@ -35,6 +35,12 @@
 				"channel": "sight",
 				"shape": "capsule",
 				"radius": 110
+			},
+			{
+				"layer": "underwater",
+				"channel": "sight",
+				"shape": "capsule",
+				"radius": 110
 			}]
 		}
 	},
@@ -78,19 +84,26 @@
 			}
 		}
 	},
-	"fx_offsets" : [{
-			"type" : "build",
-			"filename" : "/pa/effects/specs/fab_spray.pfx",
-			"bone" : "socket_muzzle01",
-			"offset" : [0.0, 0],
-			"orientation" : [0, 0, 0]
-		}, {
-			"type" : "build",
-			"filename" : "/pa/effects/specs/fab_spray.pfx",
-			"bone" : "socket_muzzle02",
-			"offset" : [0.0, 0],
-			"orientation" : [0, 0, 0]
-		},{
+	"fx_offsets": [{
+		"type": "build",
+		"filename": "/pa/effects/specs/fab_spray.pfx",
+		"bone": "socket_muzzle01",
+		"offset": [0.0,
+		0],
+		"orientation": [0,
+		0,
+		0]
+	},
+	{
+		"type": "build",
+		"filename": "/pa/effects/specs/fab_spray.pfx",
+		"bone": "socket_muzzle02",
+		"offset": [0.0,
+		0],
+		"orientation": [0,
+		0,
+		0]
+	},{
 			"label" : "Big Antenna",
 			"type" : "idle",
 			"bone" : "bone_root",

@@ -2,8 +2,8 @@
 	"base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
 	"display_name": "!LOC(units:sxx_1304_laser_platform.message):SXX-1304 Laser Platform",
 	"description": "!LOC(units:orbital_laser_platform_rains_death_from_above.message):Orbital laser platform- Rains death from above.",
-	"max_health": 1500,
-	"build_metal_cost": 24000,
+	"max_health": 1600,
+	"build_metal_cost": 6000,
 	"spawn_layers": "WL_Orbital",
 	"gravwell_velocity_multiplier": 6.0,
 	"attachable": {
@@ -18,16 +18,15 @@
 	"UNITTYPE_Orbital",
 	"UNITTYPE_LaserPlatform",
 	"UNITTYPE_Advanced",
-	"UNITTYPE_FactoryBuild",
-	"UNITTYPE_Important"],
+	"UNITTYPE_FactoryBuild"],
 	"command_caps": ["ORDER_Move",
 	"ORDER_Patrol",
 	"ORDER_Attack"],
 	"guard_layer": "WL_AnySurface",
 	"navigation": {
 		"type": "orbital",
-		"acceleration": 10,
-		"brake": 10,
+		"acceleration": 25,
+		"brake": 25,
 		"move_speed": 25,
 		"turn_speed": 90,
 		"hover_time": -1.0
@@ -49,6 +48,12 @@
 				"layer": "orbital",
 				"channel": "sight",
 				"shape": "sphere",
+				"radius": 100
+			},
+			{
+				"layer": "underwater",
+				"channel": "sight",
+				"shape": "capsule",
 				"radius": 100
 			}]
 		}
