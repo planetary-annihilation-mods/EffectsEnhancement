@@ -1,0 +1,89 @@
+{
+  "target": "pa/units/land/control_module/control_module.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "filename": "/pa/units/land/control_module/PulseStrip3.pfx",
+        "bone": "bone_leftShieldSet",
+        "offset": [
+          22,
+          -20.2,
+          4
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "filename": "/pa/units/land/control_module/PulseStrip2.pfx",
+        "bone": "bone_leftShieldSet",
+        "offset": [
+          22,
+          -0.2,
+          4
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "filename": "/pa/units/land/control_module/PulseStrip1.pfx",
+        "bone": "bone_leftShieldSet",
+        "offset": [
+          22,
+          19.8,
+          4
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "filename": "/pa/units/land/control_module/PulseStrip3.pfx",
+        "bone": "bone_rightShieldSet",
+        "offset": [
+          22,
+          20.2,
+          4
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "filename": "/pa/units/land/control_module/PulseStrip2.pfx",
+        "bone": "bone_rightShieldSet",
+        "offset": [
+          22,
+          0.2,
+          4
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "filename": "/pa/units/land/control_module/PulseStrip1.pfx",
+        "bone": "bone_rightShieldSet",
+        "offset": [
+          22,
+          -19.8,
+          4
+        ]
+      }
+    }
+  ]
+}

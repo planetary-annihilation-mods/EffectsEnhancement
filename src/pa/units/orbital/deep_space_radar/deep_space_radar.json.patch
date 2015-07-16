@@ -1,0 +1,173 @@
+{
+  "target": "pa/units/orbital/deep_space_radar/deep_space_radar.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_door04",
+        "filename": "/pa/units/orbital/deep_space_radar/light_strobe1_2.pfx",
+        "offset": [
+          10.9,
+          0,
+          1.3
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_door04",
+        "filename": "/pa/units/orbital/deep_space_radar/light_strobe1_1.pfx",
+        "offset": [
+          8.6,
+          0,
+          2.0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_door04",
+        "filename": "/pa/units/orbital/deep_space_radar/light_strobe1_0.pfx",
+        "offset": [
+          4.3,
+          0,
+          2.0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_door03",
+        "filename": "/pa/units/orbital/deep_space_radar/light_strobe1_2.pfx",
+        "offset": [
+          10.9,
+          0,
+          1.3
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_door03",
+        "filename": "/pa/units/orbital/deep_space_radar/light_strobe1_1.pfx",
+        "offset": [
+          8.6,
+          0,
+          2.0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_door03",
+        "filename": "/pa/units/orbital/deep_space_radar/light_strobe1_0.pfx",
+        "offset": [
+          4.3,
+          0,
+          2.0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_door02",
+        "filename": "/pa/units/orbital/deep_space_radar/light_strobe1_2.pfx",
+        "offset": [
+          10.9,
+          0,
+          1.3
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_door02",
+        "filename": "/pa/units/orbital/deep_space_radar/light_strobe1_1.pfx",
+        "offset": [
+          8.6,
+          0,
+          2.0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_door02",
+        "filename": "/pa/units/orbital/deep_space_radar/light_strobe1_0.pfx",
+        "offset": [
+          4.3,
+          0,
+          2.0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_door01",
+        "filename": "/pa/units/orbital/deep_space_radar/light_strobe1_2.pfx",
+        "offset": [
+          10.9,
+          0,
+          1.3
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_door01",
+        "filename": "/pa/units/orbital/deep_space_radar/light_strobe1_1.pfx",
+        "offset": [
+          8.6,
+          0,
+          2.0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_door01",
+        "filename": "/pa/units/orbital/deep_space_radar/light_strobe1_0.pfx",
+        "offset": [
+          4.3,
+          0,
+          2.0
+        ]
+      }
+    }
+  ]
+}

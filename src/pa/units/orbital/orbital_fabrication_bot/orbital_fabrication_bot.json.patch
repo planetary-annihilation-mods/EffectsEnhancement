@@ -1,0 +1,33 @@
+{
+  "target": "pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_rightSolarPanel",
+        "filename": "/pa/effects/specs/lightblink_2_2_2.pfx",
+        "offset": [
+          12,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_leftSolarPanel",
+        "filename": "/pa/effects/specs/lightblink_2_2_1.pfx",
+        "offset": [
+          12.2,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

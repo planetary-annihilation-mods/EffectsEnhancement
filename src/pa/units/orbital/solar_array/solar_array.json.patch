@@ -1,0 +1,41 @@
+{
+  "target": "pa/units/orbital/solar_array/solar_array.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets",
+      "value": [
+        {
+          "type": "idle",
+          "bone": "bone_body",
+          "filename": "/pa/effects/specs/light_2_4_1.pfx",
+          "offset": [
+            0,
+            -12.5,
+            0
+          ]
+        },
+        {
+          "type": "idle",
+          "bone": "bone_body",
+          "filename": "/pa/effects/specs/light_2_4_1_4.pfx",
+          "offset": [
+            0.5,
+            -10,
+            0
+          ]
+        },
+        {
+          "type": "idle",
+          "bone": "bone_body",
+          "filename": "/pa/effects/specs/light_2_4_1_2.pfx",
+          "offset": [
+            -0.5,
+            -11.2,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "target": "pa/units/land/energy_storage/energy_storage.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets",
+      "value": [
+        {
+          "type": "idle",
+          "filename": "/pa/units/land/energy_storage/energy_storage.pfx",
+          "offset": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "type": "idle",
+          "bone": "bone_antenna01",
+          "filename": "/pa/effects/specs/stable_light_2.pfx",
+          "offset": [
+            5.15,
+            5.15,
+            13
+          ]
+        },
+        {
+          "type": "idle",
+          "bone": "bone_antenna01",
+          "filename": "/pa/effects/specs/stable_light_2.pfx",
+          "offset": [
+            -5.15,
+            -5.15,
+            13
+          ]
+        },
+        {
+          "type": "idle",
+          "bone": "bone_antenna01",
+          "filename": "/pa/effects/specs/stable_light_2.pfx",
+          "offset": [
+            -5.15,
+            5.15,
+            13
+          ]
+        },
+        {
+          "type": "idle",
+          "bone": "bone_antenna01",
+          "filename": "/pa/effects/specs/stable_light_2.pfx",
+          "offset": [
+            5.15,
+            -5.15,
+            13
+          ]
+        }
+      ]
+    }
+  ]
+}

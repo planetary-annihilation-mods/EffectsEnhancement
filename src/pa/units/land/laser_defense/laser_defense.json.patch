@@ -1,0 +1,31 @@
+{
+  "target": "pa/units/land/laser_defense/laser_defense.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets",
+      "value": [
+        {
+          "type": "idle",
+          "bone": "bone_pitch",
+          "filename": "/pa/units/land/laser_defense/turret_lights.pfx",
+          "offset": [
+            2.05,
+            -4.9,
+            0.2
+          ]
+        },
+        {
+          "type": "idle",
+          "bone": "bone_pitch",
+          "filename": "/pa/units/land/laser_defense/turret_lights.pfx",
+          "offset": [
+            -2.05,
+            -4.9,
+            0.2
+          ]
+        }
+      ]
+    }
+  ]
+}

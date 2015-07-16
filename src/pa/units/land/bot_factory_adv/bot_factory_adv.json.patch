@@ -1,0 +1,117 @@
+{
+  "target": "pa/units/land/bot_factory_adv/bot_factory_adv.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_armElbow01",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          3.0,
+          0.3,
+          -1.2
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_armElbow02",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          3.0,
+          0.3,
+          1.2
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_armElbow03",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          3.0,
+          0.3,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_armElbow01",
+        "filename": "/pa/units/land/bot_factory_adv/light_build_bone_3.pfx",
+        "offset": [
+          3.0,
+          0.3,
+          -1.2
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_armElbow02",
+        "filename": "/pa/units/land/bot_factory_adv/light_build_bone_2.pfx",
+        "offset": [
+          3.0,
+          0.3,
+          1.2
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_armElbow03",
+        "filename": "/pa/units/land/bot_factory_adv/light_build_bone_1.pfx",
+        "offset": [
+          3.0,
+          0.3,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_root",
+        "filename": "/pa/units/land/bot_factory_adv/dot_1.pfx",
+        "offset": [
+          15,
+          0,
+          10.7
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_root",
+        "filename": "/pa/units/land/bot_factory_adv/light_build.pfx",
+        "offset": [
+          15,
+          0,
+          10.7
+        ]
+      }
+    }
+  ]
+}

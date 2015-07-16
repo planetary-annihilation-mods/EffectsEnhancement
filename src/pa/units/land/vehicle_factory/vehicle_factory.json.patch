@@ -1,0 +1,173 @@
+{
+  "target": "pa/units/land/vehicle_factory/vehicle_factory.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_bar001",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          -6.1,
+          2.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_bar001",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          0,
+          0.3,
+          0.6
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_bar001",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          6.1,
+          2.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_bar002",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          -6.1,
+          2.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_bar002",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          0,
+          0.3,
+          0.6
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_bar002",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          6.1,
+          2.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_bar001",
+        "filename": "/pa/units/land/vehicle_factory/light_build_bone_1.pfx",
+        "offset": [
+          -6.1,
+          2.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_bar001",
+        "filename": "/pa/units/land/vehicle_factory/light_build_bone_2.pfx",
+        "offset": [
+          0,
+          0.3,
+          0.6
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_bar001",
+        "filename": "/pa/units/land/vehicle_factory/light_build_bone_1.pfx",
+        "offset": [
+          6.1,
+          2.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_bar002",
+        "filename": "/pa/units/land/vehicle_factory/light_build_bone_1.pfx",
+        "offset": [
+          -6.1,
+          2.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_bar002",
+        "filename": "/pa/units/land/vehicle_factory/light_build_bone_2.pfx",
+        "offset": [
+          0,
+          0.3,
+          0.6
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_bar002",
+        "filename": "/pa/units/land/vehicle_factory/light_build_bone_1.pfx",
+        "offset": [
+          6.1,
+          2.1,
+          0.6
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "target": "pa/units/air/air_factory/air_factory.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_outsideRing",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          -7.25,
+          7.25,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_outsideRing",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          7.25,
+          7.25,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_outsideRing",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          -7.25,
+          -7.25,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_outsideRing",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          7.25,
+          -7.25,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_outsideRing",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          0,
+          -9.4,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_outsideRing",
+        "filename": "/pa/effects/specs/dot_1.pfx",
+        "offset": [
+          0,
+          9.4,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_root",
+        "filename": "/pa/units/air/air_factory/dot_1.pfx",
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_outsideRing",
+        "filename": "/pa/units/air/air_factory/light_build_bone_4.pfx",
+        "offset": [
+          -7.25,
+          7.25,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_outsideRing",
+        "filename": "/pa/units/air/air_factory/light_build_bone_4.pfx",
+        "offset": [
+          7.25,
+          7.25,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_outsideRing",
+        "filename": "/pa/units/air/air_factory/light_build_bone_4_1.pfx",
+        "offset": [
+          -7.25,
+          -7.25,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_outsideRing",
+        "filename": "/pa/units/air/air_factory/light_build_bone_4_1.pfx",
+        "offset": [
+          7.25,
+          -7.25,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_outsideRing",
+        "filename": "/pa/units/air/air_factory/light_build_bone_2_2.pfx",
+        "offset": [
+          0,
+          -9.4,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_outsideRing",
+        "filename": "/pa/units/air/air_factory/light_build_bone_2.pfx",
+        "offset": [
+          0,
+          9.4,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "build",
+        "bone": "bone_root",
+        "filename": "/pa/units/air/air_factory/light_build.pfx",
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

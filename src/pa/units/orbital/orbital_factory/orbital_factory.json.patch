@@ -1,0 +1,85 @@
+{
+  "target": "pa/units/orbital/orbital_factory/orbital_factory.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Bottom Tri Antenna Light",
+        "type": "idle",
+        "bone": "bone_root",
+        "filename": "/pa/units/orbital/orbital_factory/orbital_factory_bottom_light.pfx"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Building Antennas",
+        "type": "build",
+        "bone": "bone_root",
+        "filename": "/pa/units/orbital/orbital_factory/orbital_factory_build_light.pfx"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Corner Antenna 4",
+        "type": "idle",
+        "bone": "bone_frontArms",
+        "filename": "/pa/effects/specs/light_1_4_4_4.pfx",
+        "offset": [
+          -19.2,
+          -38,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Corner Antenna 3",
+        "type": "idle",
+        "bone": "bone_backArms",
+        "filename": "/pa/effects/specs/light_1_4_2_4.pfx",
+        "offset": [
+          -19.2,
+          -38,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Corner Antenna 2",
+        "type": "idle",
+        "bone": "bone_backArms",
+        "filename": "/pa/effects/specs/light_1_4_1_4.pfx",
+        "offset": [
+          19.2,
+          -38,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Corner Antenna 1",
+        "type": "idle",
+        "bone": "bone_frontArms",
+        "filename": "/pa/effects/specs/light_1_4_3_4.pfx",
+        "offset": [
+          19.2,
+          -38,
+          0
+        ]
+      }
+    }
+  ]
+}

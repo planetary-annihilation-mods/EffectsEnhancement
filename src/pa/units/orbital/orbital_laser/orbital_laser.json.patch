@@ -1,0 +1,51 @@
+{
+  "target": "pa/units/orbital/orbital_laser/orbital_laser.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets",
+      "value": [
+        {
+          "type": "idle",
+          "bone": "bone_rotator",
+          "filename": "/pa/effects/specs/light_2_4_1.pfx",
+          "offset": [
+            8.45,
+            1,
+            -3.5
+          ]
+        },
+        {
+          "type": "idle",
+          "bone": "bone_rotator",
+          "filename": "/pa/effects/specs/light_2_4_1.pfx",
+          "offset": [
+            -8.45,
+            -1,
+            -3.5
+          ]
+        },
+        {
+          "type": "idle",
+          "bone": "bone_rotator",
+          "filename": "/pa/effects/specs/lightblink_1_4_1.pfx",
+          "offset": [
+            7.6,
+            1,
+            -1.3
+          ]
+        },
+        {
+          "type": "idle",
+          "bone": "bone_rotator",
+          "filename": "/pa/effects/specs/lightblink_1_4_1.pfx",
+          "offset": [
+            -7.6,
+            -1,
+            -1.3
+          ]
+        }
+      ]
+    }
+  ]
+}
