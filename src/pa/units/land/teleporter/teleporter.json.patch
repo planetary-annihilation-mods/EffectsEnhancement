@@ -1,0 +1,155 @@
+{
+  "target": "pa/units/land/teleporter/teleporter.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Little Antenna Left",
+        "type": "idle",
+        "filename": "/pa/effects/specs/stable_light_2.pfx",
+        "bone": "bone_root",
+        "offset": [
+          -18.9,
+          -11,
+          9.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "RAMPBIGLEFT",
+        "type": "idle",
+        "filename": "/pa/units/land/teleporter/ramp_light_big_1.pfx",
+        "bone": "bone_root",
+        "offset": [
+          -6.75,
+          15.2,
+          1.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "RAMPBIGMIDDLE",
+        "type": "idle",
+        "filename": "/pa/units/land/teleporter/ramp_light_big_1.pfx",
+        "bone": "bone_root",
+        "offset": [
+          0,
+          15.2,
+          1.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "RAMPBIGRIGHT",
+        "type": "idle",
+        "filename": "/pa/units/land/teleporter/ramp_light_big_1.pfx",
+        "bone": "bone_root",
+        "offset": [
+          6.75,
+          15.2,
+          1.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "RAMPRIGHT",
+        "type": "idle",
+        "filename": "/pa/units/land/teleporter/ramp_light_1.pfx",
+        "bone": "bone_root",
+        "offset": [
+          6.75,
+          4.8,
+          1.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "RAMPMIDDLE",
+        "type": "idle",
+        "filename": "/pa/units/land/teleporter/ramp_light_1.pfx",
+        "bone": "bone_root",
+        "offset": [
+          0,
+          4.8,
+          1.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "RAMPLEFT",
+        "type": "idle",
+        "filename": "/pa/units/land/teleporter/ramp_light_1.pfx",
+        "bone": "bone_root",
+        "offset": [
+          -6.75,
+          4.8,
+          1.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Big Antenna Left",
+        "type": "idle",
+        "filename": "/pa/effects/specs/stable_light_2.pfx",
+        "bone": "bone_root",
+        "offset": [
+          -17.1,
+          -11,
+          11.8
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Little Antenna Right",
+        "type": "idle",
+        "filename": "/pa/effects/specs/stable_light_2.pfx",
+        "bone": "bone_root",
+        "offset": [
+          18.9,
+          -11,
+          9.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Big Antenna Right",
+        "type": "idle",
+        "filename": "/pa/effects/specs/stable_light_2.pfx",
+        "bone": "bone_root",
+        "offset": [
+          17.1,
+          -11,
+          11.8
+        ]
+      }
+    }
+  ]
+}

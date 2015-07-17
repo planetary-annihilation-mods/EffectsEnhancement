@@ -1,0 +1,30 @@
+{
+  "target": "pa/units/land/metal_extractor/metal_extractor.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets",
+      "value": [
+        {
+          "type": "idle",
+          "filename": "/pa/units/land/metal_extractor/metal_extractor_idle.pfx",
+          "offset": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "type": "idle",
+          "bone": "bone_root",
+          "filename": "/pa/units/land/metal_extractor/lightblink_2_2_2.pfx",
+          "offset": [
+            0,
+            0,
+            9.7
+          ]
+        }
+      ]
+    }
+  ]
+}

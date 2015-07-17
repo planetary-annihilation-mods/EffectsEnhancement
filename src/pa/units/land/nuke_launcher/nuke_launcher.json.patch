@@ -1,0 +1,35 @@
+{
+  "target": "pa/units/land/nuke_launcher/nuke_launcher.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Little Antenna",
+        "type": "idle",
+        "bone": "bone_root",
+        "filename": "/pa/effects/specs/light_2_4_1_2.pfx",
+        "offset": [
+          0,
+          4.3,
+          21.85
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Big Antenna",
+        "type": "idle",
+        "bone": "bone_root",
+        "filename": "/pa/effects/specs/light_2_4_2_2.pfx",
+        "offset": [
+          0,
+          5.2,
+          23.5
+        ]
+      }
+    }
+  ]
+}

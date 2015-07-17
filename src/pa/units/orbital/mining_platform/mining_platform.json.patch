@@ -1,0 +1,290 @@
+{
+  "target": "pa/units/orbital/mining_platform/mining_platform.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Straw 1",
+        "type": "idle",
+        "bone": "bone_hose07",
+        "filename": "/pa/units/orbital/mining_platform/straw_2_8_1.pfx",
+        "offset": [
+          0,
+          -2,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Straw 2",
+        "type": "idle",
+        "bone": "bone_hose06",
+        "filename": "/pa/units/orbital/mining_platform/straw_2_8_2.pfx",
+        "offset": [
+          0,
+          -8,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Straw 3",
+        "type": "idle",
+        "bone": "bone_hose05",
+        "filename": "/pa/units/orbital/mining_platform/straw_2_8_3.pfx",
+        "offset": [
+          0,
+          -3,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Straw 4",
+        "type": "idle",
+        "bone": "bone_hose04",
+        "filename": "/pa/units/orbital/mining_platform/straw_2_8_4.pfx",
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Straw 5",
+        "type": "idle",
+        "bone": "bone_hose03",
+        "filename": "/pa/units/orbital/mining_platform/straw_2_8_5.pfx",
+        "offset": [
+          0,
+          -4,
+          0
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Straw 6",
+        "type": "idle",
+        "bone": "bone_hose02",
+        "filename": "/pa/units/orbital/mining_platform/straw_2_8_6.pfx",
+        "offset": [
+          0,
+          -11,
+          -2
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Straw 7",
+        "type": "idle",
+        "bone": "bone_hose01",
+        "filename": "/pa/units/orbital/mining_platform/straw_2_8_7.pfx",
+        "offset": [
+          0,
+          -5.2,
+          -3
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Bottom Antenna",
+        "type": "idle",
+        "bone": "bone_root",
+        "filename": "/pa/units/orbital/mining_platform/straw_2_8_8.pfx",
+        "offset": [
+          0.5,
+          0.5,
+          -53.3
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Border Light S4-E3",
+        "type": "idle",
+        "bone": "bone_shield04",
+        "filename": "/pa/units/orbital/mining_platform/position_light_1_4_3_8.pfx",
+        "offset": [
+          21.95,
+          5.1,
+          5.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Border Light S4-E4",
+        "type": "idle",
+        "bone": "bone_shield04",
+        "filename": "/pa/units/orbital/mining_platform/position_light_1_4_4_8.pfx",
+        "offset": [
+          -21.95,
+          5.1,
+          5.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Border Light S3-E2",
+        "type": "idle",
+        "bone": "bone_shield03",
+        "filename": "/pa/units/orbital/mining_platform/position_light_1_4_2_8.pfx",
+        "offset": [
+          21.95,
+          5.1,
+          5.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Border Light S3-E3",
+        "type": "idle",
+        "bone": "bone_shield03",
+        "filename": "/pa/units/orbital/mining_platform/position_light_1_4_3_8.pfx",
+        "offset": [
+          -21.95,
+          5.1,
+          5.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Border Light S2-E1",
+        "type": "idle",
+        "bone": "bone_shield02",
+        "filename": "/pa/units/orbital/mining_platform/position_light_1_4_1_8.pfx",
+        "offset": [
+          21.95,
+          5.1,
+          5.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Border Light S2-E2",
+        "type": "idle",
+        "bone": "bone_shield02",
+        "filename": "/pa/units/orbital/mining_platform/position_light_1_4_2_8.pfx",
+        "offset": [
+          -21.95,
+          5.1,
+          5.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Border Light S1-E4",
+        "type": "idle",
+        "bone": "bone_shield01",
+        "filename": "/pa/units/orbital/mining_platform/position_light_1_4_4_8.pfx",
+        "offset": [
+          21.95,
+          5.1,
+          5.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Border Light S1-E1",
+        "type": "idle",
+        "bone": "bone_shield01",
+        "filename": "/pa/units/orbital/mining_platform/position_light_1_4_1_8.pfx",
+        "offset": [
+          -21.95,
+          5.1,
+          5.9
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Energy Plant Light 3",
+        "type": "idle",
+        "bone": "bone_root",
+        "filename": "/pa/units/orbital/mining_platform/energy_light_2_4_1_2.pfx",
+        "offset": [
+          7.9,
+          0,
+          26.8
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Energy Plant Light 2",
+        "type": "idle",
+        "bone": "bone_root",
+        "filename": "/pa/units/orbital/mining_platform/energy_light_2_4_3_2.pfx",
+        "offset": [
+          -7.9,
+          0,
+          26.8
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "label": "Energy Plant Light 1",
+        "type": "idle",
+        "bone": "bone_root",
+        "filename": "/pa/units/orbital/mining_platform/energy_light_2_4_2_2.pfx",
+        "offset": [
+          0,
+          -7.9,
+          26.8
+        ]
+      }
+    }
+  ]
+}

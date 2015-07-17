@@ -1,0 +1,20 @@
+{
+  "target": "pa/units/land/metal_extractor_adv/metal_extractor_adv.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets",
+      "value": [
+        {
+          "type": "idle",
+          "filename": "/pa/units/land/metal_extractor_adv/metal_extractor_adv.pfx",
+          "offset": [
+            0,
+            0,
+            5
+          ]
+        }
+      ]
+    }
+  ]
+}

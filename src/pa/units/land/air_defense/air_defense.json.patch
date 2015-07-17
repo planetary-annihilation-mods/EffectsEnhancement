@@ -1,0 +1,31 @@
+{
+  "target": "pa/units/land/air_defense/air_defense.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets",
+      "value": [
+        {
+          "type": "idle",
+          "bone": "socket_leftMuzzle",
+          "filename": "/pa/units/land/air_defense/aa_lights.pfx",
+          "offset": [
+            0,
+            0.75,
+            2.1
+          ]
+        },
+        {
+          "type": "idle",
+          "bone": "socket_rightMuzzle",
+          "filename": "/pa/units/land/air_defense/aa_lights.pfx",
+          "offset": [
+            0,
+            0.75,
+            2.1
+          ]
+        }
+      ]
+    }
+  ]
+}

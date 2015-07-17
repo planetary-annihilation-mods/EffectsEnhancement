@@ -1,0 +1,121 @@
+{
+  "options": {
+    "output_dir": "..",
+    "pretty_print_effects": true,
+    "indent": 2
+  },
+  "modinfo": {
+    "context": "client",
+    "identifier": "com.uberent.pa.PAFX",
+    "display_name": "PA-FX",
+    "description": "Adding more effects to Buildings & Units",
+    "author": "Alpha2546, Fr33Lancer",
+    "version": "2.5",
+    "build": "78071",
+    "date": "2015/02/12",
+    "signature": "not yet implemented",
+    "forum": "https://forums.uberent.com/threads/rel-pa-fx-moar-effects-in-pa-75499.66155/",
+    "icon": "https://i.imgflip.com/ekl6p.gif",
+    "category": [
+      "in-game",
+      "shader",
+      "colours",
+      "particles",
+      "effects",
+      "buildings"
+    ],
+    "priority": 100
+  },
+  "mod": [
+    {
+      "from_file": "pa/units/air/air_factory/air_factory.json.patch"
+    },
+    {
+      "from_file": "pa/units/air/air_factory_adv/air_factory_adv.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/air_defense/air_defense.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/air_defense_adv/air_defense_adv.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/anti_nuke_launcher/anti_nuke_launcher.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/bot_factory/bot_factory.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/bot_factory_adv/bot_factory_adv.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/control_module/control_module.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/energy_plant_adv/energy_plant_adv.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/energy_storage/energy_storage.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/laser_defense/laser_defense.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/laser_defense_adv/laser_defense_adv.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/laser_defense_single/laser_defense_single.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/metal_extractor/metal_extractor.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/metal_extractor_adv/metal_extractor_adv.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/metal_storage/metal_storage.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/nuke_launcher/nuke_launcher.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/tactical_missile_launcher/tactical_missile_launcher.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/teleporter/teleporter.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/vehicle_factory/vehicle_factory.json.patch"
+    },
+    {
+      "from_file": "pa/units/land/vehicle_factory_adv/vehicle_factory_adv.json.patch"
+    },
+    {
+      "from_file": "pa/units/orbital/deep_space_radar/deep_space_radar.json.patch"
+    },
+    {
+      "from_file": "pa/units/orbital/delta_v_engine/delta_v_engine.json.patch"
+    },
+    {
+      "from_file": "pa/units/orbital/mining_platform/mining_platform.json.patch"
+    },
+    {
+      "from_file": "pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.json.patch"
+    },
+    {
+      "from_file": "pa/units/orbital/orbital_factory/orbital_factory.json.patch"
+    },
+    {
+      "from_file": "pa/units/orbital/orbital_fighter/orbital_fighter.json.patch"
+    },
+    {
+      "from_file": "pa/units/orbital/orbital_laser/orbital_laser.json.patch"
+    },
+    {
+      "from_file": "pa/units/orbital/orbital_launcher/orbital_launcher.json.patch"
+    },
+    {
+      "from_file": "pa/units/orbital/solar_array/solar_array.json.patch"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "target": "pa/units/land/anti_nuke_launcher/anti_nuke_launcher.json",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/fx_offsets/-",
+      "value": {
+        "type": "idle",
+        "bone": "bone_radarPitch",
+        "filename": "/pa/effects/specs/light_2_2_2.pfx",
+        "offset": [
+          3.5,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}
