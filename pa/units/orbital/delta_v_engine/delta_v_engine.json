@@ -1,15 +1,13 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "display_name": "!LOC(units:halley.message):Halley",
-  "description": "!LOC(units:delta_v_engine_used_to_move_small_to_medium_celestial_bodies.message):Delta V Engine- Used to move small to medium celestial bodies.",
+  "display_name": "Halley",
+  "description": "!LOC:Delta V Engine- Used to move small to medium celestial bodies.",
   "max_health": 20000,
   "build_metal_cost": 40000,
   "atrophy_rate": 650,
   "atrophy_cool_down": 15.0,
-  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "build_restrictions": "Thrustable",
   "unit_types": [
-    "UNITTYPE_Orbital",
     "UNITTYPE_Factory",
     "UNITTYPE_Construction",
     "UNITTYPE_Structure",
@@ -528,8 +526,13 @@
       "audio_cue": "/SE/Build_Complete/delta_v"
     },
     "died": {
-      "audio_cue": "/SE/Death/delta_v"
+      "audio_cue": "/SE/Death/delta_v",
+      "effect_spec": "/pa/effects/specs/default_building_explosion_large.pfx",
+      "effect_scale": 1.0
     }
+  },
+  "selection_icon": {
+    "diameter": 65.0
   },
   "TEMP_texelinfo": 77.8386,
   "mesh_bounds": [

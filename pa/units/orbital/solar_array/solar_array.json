@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-  "display_name": "!LOC(units:solar_array.message):Solar Array",
-  "description": "!LOC(units:manufacturing_orbital_energy_generation.message):Manufacturing- Orbital energy generation.",
+  "display_name": "!LOC:Solar Array",
+  "description": "!LOC:Manufacturing- Orbital energy generation.",
   "max_health": 2500,
   "build_metal_cost": 2800,
   "spawn_layers": "WL_Orbital",
@@ -40,7 +40,6 @@
   },
   "physics": {
     "radius": 8,
-    "push_class": 25,
     "gravity_scalar": 0.001
   },
   "recon": {
@@ -73,8 +72,12 @@
     },
     "died": {
       "audio_cue": "/SE/Death/orbital",
+      "effect_spec": "/pa/units/air/base_flyer/base_flyer_death_t2.pfx",
       "effect_scale": 1.5
     }
+  },
+  "selection_icon": {
+    "diameter": 34.0
   },
   "mesh_bounds": [
     50,

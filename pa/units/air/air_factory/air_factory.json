@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "display_name": "!LOC(units:air_factory.message):Air Factory",
-  "description": "!LOC(units:basic_manufacturing_builds_air_units.message):Basic manufacturing- Builds air units.",
+  "display_name": "!LOC:Air Factory",
+  "description": "!LOC:Basic manufacturing- Builds air units.",
   "max_health": 6000,
   "build_metal_cost": 720,
   "atrophy_rate": 12.0,
@@ -462,6 +462,9 @@
     "decals": [
       "/pa/effects/specs/scorch_c_01.json"
     ]
+  },
+  "selection_icon": {
+    "diameter": 49.5
   },
   "mesh_bounds": [
     30,

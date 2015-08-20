@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-  "display_name": "!LOC(units:orbital_fabrication_bot.message):Orbital Fabrication Bot",
-  "description": "!LOC(units:advanced_fabricator_builds_orbital_satellites_and_ships.message):Advanced fabricator- Builds orbital satellites and ships.",
+  "display_name": "!LOC:Orbital Fabrication Bot",
+  "description": "!LOC:Advanced fabricator- Builds orbital satellites and ships.",
   "max_health": 50,
   "build_metal_cost": 1600,
   "system_velocity_multiplier": 15.0,
@@ -47,8 +47,7 @@
     "bank_factor": 10
   },
   "physics": {
-    "radius": 5,
-    "push_class": 15
+    "radius": 5
   },
   "recon": {
     "observer": {
@@ -150,6 +149,9 @@
       ]
     }
   ],
+  "selection_icon": {
+    "diameter": 32.0
+  },
   "mesh_bounds": [
     20,
     10,

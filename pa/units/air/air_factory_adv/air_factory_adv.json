@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "display_name": "!LOC(units:advanced_air_factory.message):Advanced Air Factory",
-  "description": "!LOC(units:advanced_manufacturing_builds_air_units.message):Advanced manufacturing- Builds air units.",
+  "display_name": "!LOC:Advanced Air Factory",
+  "description": "!LOC:Advanced manufacturing- Builds air units.",
   "max_health": 30000,
   "build_metal_cost": 4800,
   "atrophy_rate": 80.0,
@@ -98,7 +98,8 @@
   ],
   "events": {
     "died": {
-      "effect_scale": 2.0
+      "effect_spec": "/pa/effects/specs/default_building_explosion_large.pfx",
+      "effect_scale": 1.0
     }
   },
   "audio": {
@@ -609,6 +610,9 @@
       "intensity": 2.0
     }
   ],
+  "selection_icon": {
+    "diameter": 72.5
+  },
   "mesh_bounds": [
     50,
     50,
