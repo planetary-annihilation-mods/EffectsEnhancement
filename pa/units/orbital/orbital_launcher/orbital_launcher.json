@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "display_name": "!LOC(units:orbital_launcher.message):Orbital Launcher",
-  "description": "!LOC(units:basic_manufacturing_builds_and_launches_satellites_and_other_units.message):Basic manufacturing- Builds and launches satellites and other units.",
+  "display_name": "!LOC:Orbital Launcher",
+  "description": "!LOC:Basic manufacturing- Builds and launches satellites and other units.",
   "max_health": 6000,
   "build_metal_cost": 2700,
   "atrophy_rate": 45.0,
@@ -83,7 +83,8 @@
   ],
   "events": {
     "died": {
-      "effect_scale": 2.0
+      "effect_spec": "/pa/effects/specs/default_building_explosion_large.pfx",
+      "effect_scale": 1.0
     }
   },
   "audio": {
@@ -404,11 +405,18 @@
       "bone": "bone_gantry02"
     }
   ],
+  "selection_icon": {
+    "diameter": 75.0
+  },
   "TEMP_texelinfo": 63.4807,
   "mesh_bounds": [
     50.0454,
     50.0306,
     58
+  ],
+  "placement_size": [
+    65,
+    65
   ],
   "physics": {
     "collision_layers": "WL_AnyHorizontalGroundOrWaterSurface"

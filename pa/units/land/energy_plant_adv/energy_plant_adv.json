@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "display_name": "!LOC(units:advanced_energy_plant.message):Advanced Energy Plant",
-  "description": "!LOC(units:advanced_manufacturing_produces_energy.message):Advanced manufacturing- Produces energy.",
+  "display_name": "!LOC:Advanced Energy Plant",
+  "description": "!LOC:Advanced manufacturing- Produces energy.",
   "max_health": 5000,
   "build_metal_cost": 2700,
   "atrophy_rate": 45.0,
@@ -61,7 +61,8 @@
     },
     "died": {
       "audio_cue": "/SE/Death/Factory",
-      "effect_scale": 1.25
+      "effect_spec": "/pa/effects/specs/default_building_explosion_large.pfx",
+      "effect_scale": 1.0
     }
   },
   "audio": {
@@ -321,10 +322,17 @@
       "intensity": 2.0
     }
   ],
+  "selection_icon": {
+    "diameter": 39.0
+  },
   "mesh_bounds": [
     20,
     20,
     23.5
+  ],
+  "placement_size": [
+    30,
+    30
   ],
   "TEMP_texelinfo": 32.6108
 }

@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "display_name": "!LOC(units:advanced_bot_factory.message):Advanced Bot Factory",
-  "description": "!LOC(units:advanced_manufacturing_builds_bots.message):Advanced manufacturing- Builds bots.",
+  "display_name": "!LOC:Advanced Bot Factory",
+  "description": "!LOC:Advanced manufacturing- Builds bots.",
   "max_health": 30000,
   "build_metal_cost": 4800,
   "atrophy_rate": 80.0,
@@ -76,7 +76,8 @@
   ],
   "events": {
     "died": {
-      "effect_scale": 1.5
+      "effect_spec": "/pa/effects/specs/default_building_explosion_large.pfx",
+      "effect_scale": 1.0
     }
   },
   "audio": {
@@ -328,6 +329,9 @@
       "intensity": 2.0
     }
   ],
+  "selection_icon": {
+    "diameter": 72.5
+  },
   "mesh_bounds": [
     50,
     50,

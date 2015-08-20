@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/orbital/base_orbital_structure/base_orbital_structure.json",
-  "display_name": "!LOC(units:jig.message):Jig",
-  "description": "!LOC(units:gas_mining_and_metal_creation_satellite_only_works_above_gas_giant_planets.message):Gas mining and metal creation satellite. Only works above gas giant planets.",
+  "display_name": "Jig",
+  "description": "!LOC:Gas mining and metal creation satellite. Only works above gas giant planets.",
   "max_health": 500,
   "build_metal_cost": 3000,
   "atrophy_rate": 50.0,
@@ -28,7 +28,6 @@
   ],
   "physics": {
     "radius": 20,
-    "push_class": 15,
     "collision_layers": "WL_Orbital",
     "ignore_gravity": true
   },
@@ -408,6 +407,9 @@
       "effect_spec": "/pa/effects/specs/mining_platform_orbital_explosion.pfx",
       "effect_scale": 1.0
     }
+  },
+  "selection_icon": {
+    "diameter": 115.0
   },
   "mesh_bounds": [
     50,

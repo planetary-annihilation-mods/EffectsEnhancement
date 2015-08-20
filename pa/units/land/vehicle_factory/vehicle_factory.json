@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "display_name": "!LOC(units:vehicle_factory.message):Vehicle Factory",
-  "description": "!LOC(units:basic_manufacturing_builds_land_vehicles.message):Basic manufacturing- Builds land vehicles.",
+  "display_name": "!LOC:Vehicle Factory",
+  "description": "!LOC:Basic manufacturing- Builds land vehicles.",
   "max_health": 6000,
   "build_metal_cost": 600,
   "atrophy_rate": 10.0,
@@ -349,6 +349,9 @@
       "intensity": 2.0
     }
   ],
+  "selection_icon": {
+    "diameter": 50.0
+  },
   "mesh_bounds": [
     30,
     30,

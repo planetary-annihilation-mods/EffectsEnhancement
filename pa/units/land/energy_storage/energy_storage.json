@@ -1,13 +1,13 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "display_name": "!LOC(units:energy_storage.message):Energy Storage",
-  "description": "!LOC(units:manufacturing_increases_maximum_energy_storage_capacity.message):Manufacturing- Increases maximum energy storage capacity.",
+  "display_name": "!LOC:Energy Storage",
+  "description": "!LOC:Manufacturing- Increases maximum energy storage capacity.",
   "max_health": 7500,
   "build_metal_cost": 450,
   "atrophy_rate": 7.5,
   "atrophy_cool_down": 15.0,
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
-  "area_build_type": "Sphere",
+  "area_build_type": "Line",
   "storage": {
     "energy": 100000
   },
@@ -214,10 +214,17 @@
       "intensity": 1.0
     }
   ],
+  "selection_icon": {
+    "diameter": 35.5
+  },
   "mesh_bounds": [
-    19,
+    20,
     20,
     14.2
+  ],
+  "placement_size": [
+    27,
+    27
   ],
   "TEMP_texelinfo": 26.4567,
   "fx_offsets": [
