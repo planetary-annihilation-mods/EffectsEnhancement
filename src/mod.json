@@ -89,9 +89,6 @@
       "from_file": "pa/units/land/vehicle_factory_adv/vehicle_factory_adv.json.patch"
     },
     {
-      "from_file": "pa/units/orbital/deep_space_radar/deep_space_radar.json.patch"
-    },
-    {
       "from_file": "pa/units/orbital/delta_v_engine/delta_v_engine.json.patch"
     },
     {

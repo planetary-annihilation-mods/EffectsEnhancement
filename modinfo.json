@@ -1,10 +1,10 @@
 {
     "context": "client",
     "identifier": "com.uberent.pa.PAFX",
-    "display_name": "PA-FX",
-    "description": "Adding more effects to Buildings & Units",
+    "display_name": "PA-FX Titans",
+    "description": "Adding more effects to Buildings & Units. PA: Titans only.",
     "author": "Alpha2546, Fr33Lancer, dom314",
-    "version": "2.8",
+    "version": "2.9",
     "signature": "not yet implemented",
     "forum": "https://forums.uberent.com/threads/rel-pa-fx-moar-effects-in-pa-75499.66155/",
     "icon": "https://i.imgflip.com/ekl6p.gif",
@@ -17,6 +17,6 @@
         "buildings"
     ],
     "priority": 100,
-    "build": "86422",
-    "date": "2015/08/20"
+    "build": "89755",
+    "date": "2016/04/26"
 }

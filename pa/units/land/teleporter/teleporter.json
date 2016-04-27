@@ -1,80 +1,8 @@
 {
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "unit_name": "!LOC:Teleporter",
-  "display_name": "!LOC:Teleporter",
-  "description": "!LOC:Teleporter: Teleports units from one to another.",
-  "max_health": 9750,
-  "build_metal_cost": 800,
-  "atrophy_rate": 6.66667,
-  "atrophy_cool_down": 15.0,
-  "spawn_layers": "WL_LandHorizontal",
+  "TEMP_texelinfo": 55.7884,
   "area_build_type": "Line",
-  "energy_efficiency_requirement": 1.0,
-  "flip_drag_orientation": true,
-  "unit_types": [
-    "UNITTYPE_Structure",
-    "UNITTYPE_Teleporter",
-    "UNITTYPE_CmdBuild",
-    "UNITTYPE_FabBuild",
-    "UNITTYPE_FabAdvBuild",
-    "UNITTYPE_CombatFabAdvBuild",
-    "UNITTYPE_CombatFabBuild",
-    "UNITTYPE_FabOrbBuild"
-  ],
-  "command_caps": [
-    "ORDER_Move",
-    "ORDER_Patrol",
-    "ORDER_Reclaim",
-    "ORDER_Repair",
-    "ORDER_Attack",
-    "ORDER_Assist",
-    "ORDER_Use"
-  ],
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "layer": "surface_and_air",
-          "channel": "sight",
-          "shape": "capsule",
-          "radius": 100
-        },
-        {
-          "layer": "underwater",
-          "channel": "sight",
-          "shape": "capsule",
-          "radius": 100
-        }
-      ]
-    }
-  },
-  "model": {
-    "filename": "/pa/units/land/teleporter/teleporter.papa",
-    "animations": {
-      "start": "/pa/units/land/teleporter/teleporter_anim_start.papa",
-      "loop": "/pa/units/land/teleporter/teleporter_anim_loop.papa",
-      "end": "/pa/units/land/teleporter/teleporter_anim_end.papa"
-    },
-    "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
-    "skirt_decal": "/pa/effects/specs/skirt_teleporter.json"
-  },
-  "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/energy"
-    },
-    "enabled": {
-      "audio_cue": "/SE/Buildings/teleporter_enabled",
-      "effect_spec": "/pa/units/land/teleporter/teleporter_power_on.pfx bone_innerRingMaster"
-    },
-    "disabled": {
-      "audio_cue": "/SE/Buildings/teleporter_disabled",
-      "effect_spec": "/pa/units/land/teleporter/teleporter_power_down.pfx bone_innerRingMaster"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/Factory",
-      "effect_scale": 1.5
-    }
-  },
+  "atrophy_cool_down": 15.0,
+  "atrophy_rate": 6.66667,
   "audio": {
     "loops": {
       "enabled": {
@@ -85,11 +13,42 @@
       }
     }
   },
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "build_metal_cost": 800,
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Reclaim",
+    "ORDER_Repair",
+    "ORDER_Attack",
+    "ORDER_Assist",
+    "ORDER_Use"
+  ],
+  "description": "!LOC:Teleporter: Teleports units from one to another.",
+  "display_name": "!LOC:Teleporter",
+  "energy_efficiency_requirement": 1.0,
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/energy"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/Factory",
+      "effect_scale": 1.5
+    },
+    "disabled": {
+      "audio_cue": "/SE/Buildings/teleporter_disabled",
+      "effect_spec": "/pa/units/land/teleporter/teleporter_power_down.pfx bone_innerRingMaster"
+    },
+    "enabled": {
+      "audio_cue": "/SE/Buildings/teleporter_enabled",
+      "effect_spec": "/pa/units/land/teleporter/teleporter_power_on.pfx bone_innerRingMaster"
+    }
+  },
+  "flip_drag_orientation": true,
   "fx_offsets": [
     {
-      "type": "enabled",
-      "filename": "/pa/units/land/teleporter/teleporter_event_horizon.pfx",
       "bone": "bone_innerRingMaster",
+      "filename": "/pa/units/land/teleporter/teleporter_event_horizon.pfx",
       "offset": [
         0,
         0,
@@ -99,12 +58,12 @@
         0,
         0,
         0
-      ]
+      ],
+      "type": "enabled"
     },
     {
-      "type": "enabled",
-      "filename": "/pa/units/land/teleporter/teleporter_brace_glow.pfx",
       "bone": "bone_innerRing01",
+      "filename": "/pa/units/land/teleporter/teleporter_brace_glow.pfx",
       "offset": [
         0,
         0,
@@ -114,12 +73,12 @@
         0,
         0,
         0
-      ]
+      ],
+      "type": "enabled"
     },
     {
-      "type": "enabled",
-      "filename": "/pa/units/land/teleporter/teleporter_brace_glow.pfx",
       "bone": "bone_innerRing02",
+      "filename": "/pa/units/land/teleporter/teleporter_brace_glow.pfx",
       "offset": [
         0,
         0,
@@ -129,12 +88,12 @@
         0,
         0,
         0
-      ]
+      ],
+      "type": "enabled"
     },
     {
-      "type": "enabled",
-      "filename": "/pa/units/land/teleporter/teleporter_brace_glow.pfx",
       "bone": "bone_innerRing03",
+      "filename": "/pa/units/land/teleporter/teleporter_brace_glow.pfx",
       "offset": [
         0,
         0,
@@ -144,12 +103,12 @@
         0,
         0,
         0
-      ]
+      ],
+      "type": "enabled"
     },
     {
-      "type": "enabled",
-      "filename": "/pa/units/land/teleporter/teleporter_brace_glow.pfx",
       "bone": "bone_innerRing04",
+      "filename": "/pa/units/land/teleporter/teleporter_brace_glow.pfx",
       "offset": [
         0,
         0,
@@ -159,7 +118,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "type": "enabled"
     },
     {
       "label": "Little Antenna Left",
@@ -272,27 +232,67 @@
       ]
     }
   ],
-  "orders": {
-    "handler_type": "inert"
-  },
-  "teleporter": {
-    "energy_demand": 1000
-  },
-  "useable": {
-    "type": "teleporter",
-    "range": 30
-  },
-  "selection_icon": {
-    "diameter": 74.0
-  },
+  "max_health": 9750,
   "mesh_bounds": [
     42.4,
     30,
     34
   ],
+  "model": {
+    "animations": {
+      "end": "/pa/units/land/teleporter/teleporter_anim_end.papa",
+      "loop": "/pa/units/land/teleporter/teleporter_anim_loop.papa",
+      "start": "/pa/units/land/teleporter/teleporter_anim_start.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
+    "filename": "/pa/units/land/teleporter/teleporter.papa",
+    "skirt_decal": "/pa/effects/specs/skirt_teleporter.json"
+  },
+  "orders": {
+    "handler_type": "inert"
+  },
   "placement_size": [
     50,
     75
   ],
-  "TEMP_texelinfo": 55.7884
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
+        },
+        {
+          "channel": "sight",
+          "layer": "underwater",
+          "radius": 100,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "selection_icon": {
+    "diameter": 63.0
+  },
+  "spawn_layers": "WL_LandHorizontal",
+  "teleporter": {
+    "energy_demand": 1000
+  },
+  "unit_name": "!LOC:Teleporter",
+  "unit_types": [
+    "UNITTYPE_Structure",
+    "UNITTYPE_Teleporter",
+    "UNITTYPE_CmdBuild",
+    "UNITTYPE_FabBuild",
+    "UNITTYPE_FabAdvBuild",
+    "UNITTYPE_CombatFabAdvBuild",
+    "UNITTYPE_CombatFabBuild",
+    "UNITTYPE_FabOrbBuild"
+  ],
+  "useable": {
+    "range": 30,
+    "type": "teleporter"
+  }
 }
