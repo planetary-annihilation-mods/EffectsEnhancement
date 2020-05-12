@@ -1,0 +1,6 @@
+.gitattributes export-ignore
+.gitignore export-ignore
+
+src export-ignore
+get_patch.py export-ignore
+update.py export-ignore

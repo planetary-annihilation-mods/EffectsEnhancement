@@ -1,4 +1,8 @@
 {
+  "display_name": "!LOC:Metal Extractor",
+  "unit_name": "Metal Extractor",
+  "description": "!LOC:Basic Economy - Produces metal, can only be placed on metal deposits.",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "TEMP_texelinfo": 15.0973,
   "area_build_type": "Sphere",
   "atrophy_cool_down": 15.0,
@@ -8,13 +12,10 @@
       "cue": "/SE/Selection/structure/metal"
     }
   },
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 170,
   "consumption": {
     "energy": 0
   },
-  "description": "!LOC:Basic manufacturing- Produces metal, can only be placed on metal deposits.",
-  "display_name": "!LOC:Metal Extractor",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/metal"
@@ -28,6 +29,27 @@
     "metal_spot"
   ],
   "force_snap_to_feature_orientation": true,
+  "fx_offsets": [
+    {
+      "filename": "/pa/units/land/metal_extractor/metal_extractor_idle.pfx",
+      "offset": [
+        0,
+        0,
+        5
+      ],
+      "type": "idle"
+    },
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/land/metal_extractor/lightblink_2_2_2.pfx",
+      "offset": [
+        0,
+        0,
+        9.7
+      ],
+      "type": "idle"
+    }
+  ],
   "lamps": [
     {
       "color": [
@@ -106,27 +128,7 @@
     "UNITTYPE_MetalProduction",
     "UNITTYPE_CmdBuild",
     "UNITTYPE_FabBuild",
-    "UNITTYPE_Economy"
-  ],
-  "fx_offsets": [
-    {
-      "type": "idle",
-      "filename": "/pa/units/land/metal_extractor/metal_extractor_idle.pfx",
-      "offset": [
-        0,
-        0,
-        5
-      ]
-    },
-    {
-      "type": "idle",
-      "bone": "bone_root",
-      "filename": "/pa/units/land/metal_extractor/lightblink_2_2_2.pfx",
-      "offset": [
-        0,
-        0,
-        9.7
-      ]
-    }
+    "UNITTYPE_Economy",
+    "UNITTYPE_FabOrbBuild"
   ]
 }

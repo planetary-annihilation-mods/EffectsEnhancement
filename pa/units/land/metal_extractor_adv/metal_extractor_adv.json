@@ -1,4 +1,8 @@
 {
+  "display_name": "!LOC:Advanced Metal Extractor",
+  "unit_name": "Advanced Metal Extractor",
+  "description": "!LOC:Advanced Economy - Produces metal, can only be placed on metal deposits.",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "TEMP_texelinfo": 24.4307,
   "area_build_type": "Sphere",
   "atrophy_cool_down": 15.0,
@@ -8,13 +12,10 @@
       "cue": "/SE/Selection/structure/metal"
     }
   },
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 2000,
   "consumption": {
     "energy": 0
   },
-  "description": "!LOC:Advanced manufacturing- Produces metal, can only be placed on metal deposits.",
-  "display_name": "!LOC:Advanced Metal Extractor",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/metal"
@@ -28,6 +29,17 @@
     "metal_spot"
   ],
   "force_snap_to_feature_orientation": true,
+  "fx_offsets": [
+    {
+      "filename": "/pa/units/land/metal_extractor_adv/metal_extractor_adv.pfx",
+      "offset": [
+        0,
+        0,
+        5
+      ],
+      "type": "idle"
+    }
+  ],
   "lamps": [
     {
       "color": [
@@ -75,7 +87,7 @@
     16
   ],
   "production": {
-    "metal": 24
+    "metal": 15
   },
   "recon": {
     "observer": {
@@ -109,16 +121,5 @@
     "UNITTYPE_MetalProduction",
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_Economy"
-  ],
-  "fx_offsets": [
-    {
-      "type": "idle",
-      "filename": "/pa/units/land/metal_extractor_adv/metal_extractor_adv.pfx",
-      "offset": [
-        0,
-        0,
-        5
-      ]
-    }
   ]
 }
